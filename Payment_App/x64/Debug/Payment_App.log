@@ -1,0 +1,21 @@
+﻿  app.c
+D:\Payment_App\Payment_App\Payment_App\Application\app.c(24,7): warning C4013: 'printf' undefined; assuming extern returning int
+  card.c
+D:\Payment_App\Payment_App\Payment_App\Card\card.c(15,2): warning C4013: 'gets' undefined; assuming extern returning int
+  main.c
+  server.c
+D:\Payment_App\Payment_App\Payment_App\Server\server.c(14,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Payment_App\Payment_App\Payment_App\Server\server.c(95,2): warning C4013: 'printf' undefined; assuming extern returning int
+D:\Payment_App\Payment_App\Payment_App\Server\server.c(119,49): warning C4305: 'function': truncation from 'double' to 'float'
+D:\Payment_App\Payment_App\Payment_App\Server\server.c(209,18): warning C4133: 'function': incompatible types - from 'ST_terminalData_t *' to 'ST_cardData_t *'
+D:\Payment_App\Payment_App\Payment_App\Server\server.c(210,22): warning C4133: 'function': incompatible types - from 'ST_terminalData_t *' to 'ST_cardData_t *'
+D:\Payment_App\Payment_App\Payment_App\Server\server.c(212,18): warning C4133: 'function': incompatible types - from 'ST_terminalData_t *' to 'ST_cardData_t *'
+D:\Payment_App\Payment_App\Payment_App\Server\server.c(213,22): warning C4133: 'function': incompatible types - from 'ST_terminalData_t *' to 'ST_cardData_t *'
+D:\Payment_App\Payment_App\Payment_App\Server\server.c(220,18): warning C4101: 'account': unreferenced local variable
+  terminal.c
+D:\Payment_App\Payment_App\Payment_App\Terminal\terminal.c(18,2): warning C4013: 'gets' undefined; assuming extern returning int
+D:\Payment_App\Payment_App\Payment_App\Terminal\terminal.c(20,7): warning C4013: 'strlen' undefined; assuming extern returning int
+  Generating Code...
+D:\Payment_App\Payment_App\Payment_App\Server\server.c(48): warning C4715: 'isValidAccount': not all control paths return a value
+D:\Payment_App\Payment_App\Payment_App\Server\server.c(58): warning C4715: 'isBlockedAccount': not all control paths return a value
+  Payment_App.vcxproj -> D:\Payment_App\Payment_App\x64\Debug\Payment_App.exe
